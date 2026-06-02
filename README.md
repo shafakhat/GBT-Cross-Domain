@@ -153,13 +153,6 @@ Match:          Seeded guarantee (at least one match exists)
 - No external libraries or build tools required
 - Standard Java Swing (included in JDK) for visualisation
 
-### Clone
-
-```bash
-git clone https://github.com/yourusername/cross-domain-search-experiment.git
-cd cross-domain-search-experiment
-```
-
 ### Compile
 
 ```bash
@@ -457,26 +450,6 @@ results.addAll(runMyDomain(depth, seed));
 | MAPF completeness | Prioritised Planning is incomplete; unsolved instances excluded from β̂ fitting |
 | MAPF algorithm scope | Only Prioritised Planning evaluated empirically; CBS, LaCAM, ACBS are directions for future work |
 | Grid topology | Uniform random obstacles; road-network or game-map topologies may produce different β̂ |
-
----
-
-## Citation
-
-If this implementation contributes to your research, 
-please cite the accompanying article:
-
-```bibtex
-@article{mohammed2025regime,
-  author  = {Mohammed, Shafakhatullah Khan},
-  title   = {Regime Structure in Tree Search: Theory and 
-             Experimental Cross-Domain Behavioural Analysis},
-  journal = {(under review)},
-  year    = {2025},
-  note    = {Implementation available at
-             https://github.com/yourusername/
-             cross-domain-search-experiment}
-}
-```
 
 ---
 
