@@ -1,0 +1,16 @@
+domain,algorithm,depth,trials,mean_metric,std_metric,mean_u,solved_rate,metric_name
+PatternMatch,IDDFS,4,30,17516.500000,191.903752,12.000000,1.000000,comparisons
+PatternMatch,IDDFS,6,30,40461.000000,437.457122,18.000000,1.000000,comparisons
+PatternMatch,IDDFS,8,30,73037.233333,651.192787,24.000000,1.000000,comparisons
+PatternMatch,IDDFS,10,30,115260.266667,867.650426,30.000000,1.000000,comparisons
+PatternMatch,IDDFS,12,30,166834.966667,1134.636990,36.000000,1.000000,comparisons
+PatternMatch,KMP,4,30,604.833333,15.093229,12.000000,1.000000,comparisons
+PatternMatch,KMP,6,30,895.400000,20.864004,18.000000,1.000000,comparisons
+PatternMatch,KMP,8,30,1193.033333,20.175040,24.000000,1.000000,comparisons
+PatternMatch,KMP,10,30,1479.366667,23.331643,30.000000,1.000000,comparisons
+PatternMatch,KMP,12,30,1773.466667,27.288256,36.000000,1.000000,comparisons
+PatternMatch,Naive,4,30,582.066667,15.461637,12.000000,1.000000,comparisons
+PatternMatch,Naive,6,30,860.233333,21.280168,18.000000,1.000000,comparisons
+PatternMatch,Naive,8,30,1145.100000,18.601702,24.000000,1.000000,comparisons
+PatternMatch,Naive,10,30,1418.200000,20.239236,30.000000,1.000000,comparisons
+PatternMatch,Naive,12,30,1698.266667,23.476134,36.000000,1.000000,comparisons

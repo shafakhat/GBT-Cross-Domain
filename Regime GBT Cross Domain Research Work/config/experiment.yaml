@@ -1,0 +1,18 @@
+trials: 30 
+training_depths: [4, 6, 8] 
+test_depths: [10, 12] 
+grid: 
+  side_multiplier: 4 
+  obstacle_rate: 0.15 
+  edge_weights: [1, 10] 
+game_tree: 
+  branching_factor: 4 
+  depth_cap: 10 
+  leaf_value_range: [0, 100] 
+mapf: 
+  obstacle_rate: 0.10 
+  time_horizon: 60 
+pattern: 
+  alphabet: "ACGT" 
+  pattern_multiplier: 3 
+  text_multiplier: 300

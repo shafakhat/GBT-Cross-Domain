@@ -1,0 +1,13 @@
+algorithm,domain
+BFS,Grid
+Dijkstra,Grid
+A*,Grid
+WA*(1.5),Grid
+GBFS,Grid
+IDA*,Grid
+MiniMax,GameTree
+AlphaBeta,GameTree
+PrioritisedPlanning,MAPF
+Naive,PatternMatch
+KMP,PatternMatch
+IDDFS,PatternMatch

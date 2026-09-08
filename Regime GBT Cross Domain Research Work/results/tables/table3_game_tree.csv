@@ -1,0 +1,11 @@
+domain,algorithm,depth,trials,mean_metric,std_metric,mean_u,solved_rate,metric_name
+GameTree,AlphaBeta,4,30,150.266667,26.313410,5.000000,1.000000,node_expansions
+GameTree,AlphaBeta,6,30,1213.666667,188.041898,7.000000,1.000000,node_expansions
+GameTree,AlphaBeta,8,30,8481.666667,1110.519138,9.000000,1.000000,node_expansions
+GameTree,AlphaBeta,10,30,54452.166667,10350.086973,11.000000,1.000000,node_expansions
+GameTree,AlphaBeta,12,30,52329.833333,6915.722103,11.000000,1.000000,node_expansions
+GameTree,MiniMax,4,30,341.000000,0.000000,5.000000,1.000000,node_expansions
+GameTree,MiniMax,6,30,5461.000000,0.000000,7.000000,1.000000,node_expansions
+GameTree,MiniMax,8,30,87381.000000,0.000000,9.000000,1.000000,node_expansions
+GameTree,MiniMax,10,30,1398101.000000,0.000000,11.000000,1.000000,node_expansions
+GameTree,MiniMax,12,30,1398101.000000,0.000000,11.000000,1.000000,node_expansions

@@ -1,0 +1,92 @@
+========================================================================
+ 
+RUNNING BUILT-IN VALIDATION TESTS
+
+========================================================================
+ 
+[PASS] MiniMax exact count at complete 4-ary tree, d=10
+ 
+[PASS] MiniMax/AlphaBeta depth-12 collapses onto depth-10
+ 
+[PASS] Alpha-Beta value matches MiniMax value on random trees
+ 
+[PASS] BFS: reachable cells expanded at most once, valid path
+ 
+[PASS] KMP matches String.indexOf on exact match
+ 
+[PASS] KMP matches String.indexOf on no match
+ 
+[PASS] KMP matches String.indexOf on repeated characters
+ 
+[PASS] KMP matches String.indexOf on pattern longer than text
+ 
+[PASS] KMP handles empty pattern
+ 
+[PASS] MAPF: no obstacle occupied / no vertex collision / no swap collision
+ 
+[PASS] PowerLawFitter recovers exact exponent on synthetic N = 3*d^2
+ 
+[PASS] ModelFitter recovers exact beta with degenerate CI on synthetic exponential
+ 
+[PASS] MiniMax retains all children; Alpha-Beta retains a strict subset
+ 
+[PASS] Dijkstra cost is optimal per instance (measured q well-defined)
+
+All validation tests passed.
+
+Loaded configuration from config/experiment.yaml
+
+========================================================================
+ 
+CROSS-DOMAIN SEARCH EXPERIMENT ? RAW DATA GENERATION
+
+========================================================================
+ 
+trials=30 | training_depths=[4, 6, 8] | test_depths=[10, 12]
+
+
+Raw trial-level CSV files written to data/raw/:
+  data/raw/grid.csv
+  data/raw/game_tree.csv
+  data/raw/mapf.csv
+  data/raw/pattern.csv
+
+========================================================================
+ 
+ANALYSIS PIPELINE (pure Java, CSV in -> CSV out)
+
+========================================================================
+  
+[notice] Grid/IDA*/d=4: 29/30 unsolved trial(s) retained in raw CSV (excluded only from the mean, not dropped)
+  
+[notice] Grid/IDA*/d=6: 30/30 unsolved trial(s) retained in raw CSV (excluded only from the mean, not dropped)
+  
+[notice] Grid/IDA*/d=8: 30/30 unsolved trial(s) retained in raw CSV (excluded only from the mean, not dropped)
+  
+[notice] Grid/IDA*/d=10: 30/30 unsolved trial(s) retained in raw CSV (excluded only from the mean, not dropped)
+  
+[notice] Grid/IDA*/d=12: 30/30 unsolved trial(s) retained in raw CSV (excluded only from the mean, not dropped)
+  
+[notice] MAPF/PrioritisedPlanning/d=6: 1/30 unsolved trial(s) retained in raw CSV (excluded only from the mean, not dropped)
+  
+[notice] MAPF/PrioritisedPlanning/d=10: 2/30 unsolved trial(s) retained in raw CSV (excluded only from the mean, not dropped)
+  
+[notice] MAPF/PrioritisedPlanning/d=12: 1/30 unsolved trial(s) retained in raw CSV (excluded only from the mean, not dropped)
+
+Wrote data/processed/summary.csv (60 rows)
+
+Wrote results/tables/table6_heldout_beta.csv (12 rows)
+
+Wrote results/tables/table8_powerlaw.csv (12 rows)
+
+Wrote results/tables/table1_algorithms.csv
+Wrote results/tables/table2_grid.csv
+
+Wrote results/tables/table3_game_tree.csv
+
+Wrote results/tables/table4_mapf.csv
+
+Wrote results/tables/table5_pattern.csv
+
+Wrote results/tables/table7_bei.csv
+

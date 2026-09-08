@@ -1,0 +1,6 @@
+domain,algorithm,depth,trials,mean_metric,std_metric,mean_u,solved_rate,metric_name
+MAPF,PrioritisedPlanning,4,30,28.666667,6.944222,14.333333,1.000000,node_expansions
+MAPF,PrioritisedPlanning,6,30,35.034483,3.872830,17.103448,0.966667,node_expansions
+MAPF,PrioritisedPlanning,8,30,84.033333,16.942025,34.133333,1.000000,node_expansions
+MAPF,PrioritisedPlanning,10,30,114.642857,15.563727,43.214286,0.933333,node_expansions
+MAPF,PrioritisedPlanning,12,30,210.413793,35.175930,70.137931,0.966667,node_expansions
