@@ -139,7 +139,7 @@ verify with `sha256sum -c CHECKSUMS.txt` from inside `benchmark_data/`-adjusted 
             Henchiri, Mourad Mohammed and SivaLakshmaiah, Thota},
   year   = {2026},
   publisher = {GitHub},
-  url    = {https://github.com/<ACCOUNT>/<REPO>}
+  url    = {https://github.com/shafakhat/GBT-Cross-Domain}
 }
 ```
 
