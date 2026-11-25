@@ -139,9 +139,7 @@ verify with `sha256sum -c CHECKSUMS.txt` from inside `benchmark_data/`-adjusted 
             Henchiri, Mourad Mohammed and SivaLakshmaiah, Thota},
   year   = {2026},
   publisher = {GitHub},
-  url    = {https://github.com/<ACCOUNT>/<REPO>},
-  note   = {Companion artifact to the SSRN preprint arXiv-equivalent:
-            https://ssrn.com/abstract=6891367}
+  url    = {https://github.com/<ACCOUNT>/<REPO>}
 }
 ```
 
