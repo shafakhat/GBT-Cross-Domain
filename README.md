@@ -4,8 +4,6 @@ Reproducible measurement artifact and data archive for:
 
 > **"Regime Structure in Tree Search: Theory and Experimental Cross-Domain Behavioural Analysis"**
 > Shafakhatullah Khan Mohammed, Shaik Nagur Vali, Mourad Mohammed Henchiri, Thota SivaLakshmaiah.
-> Preprint: SSRN, 7 June 2026 — <https://ssrn.com/abstract=6891367> (DOI: 10.2139/ssrn.6891367).
-> Journal version: to appear; the permanent archive link to this repository is added at camera-ready.
 
 ## What this repository is
 
